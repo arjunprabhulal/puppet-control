@@ -1,3 +1,3 @@
-modulepath '/etc/puppetlabs/code/environments/production/modules'
+moduledir '/etc/puppetlabs/code/environments/production/modules'
 mod 'apache',
           :git => 'https://github.com/puppetlabs/puppetlabs-apache'
